@@ -118,7 +118,7 @@
 			<!--Sound Panel-->
 			<Rectangle Grid.Column="1" Width="170" Fill="#ccc"></Rectangle>
 			<!---->
-			<Rectangle Grid.Column="2" Fill="Black"></Rectangle>
+			<Rectangle Grid.Column="2" Fill="#1a1c20"></Rectangle>
 		
 		</Grid>
 		
