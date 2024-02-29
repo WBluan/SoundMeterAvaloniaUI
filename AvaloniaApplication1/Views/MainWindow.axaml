@@ -22,9 +22,21 @@
 	<Grid RowDefinitions="Auto, *, Auto">
 		<!--Tittle Bar-->
 		<Grid  Height="40" Background="#e5e5e5" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
-			<Button Width="50">
+
+			<Grid.Styles>
+				<Style Selector="Button:pointerover /template/ ContentPresenter">
+					<Setter Property="Background" Value="Transparent"/>
+					<Setter Property="RenderTransform" Value="scale(1.11)"/>
+				</Style>
+			</Grid.Styles>
+			
+			
+			<Button Grid.Column="0" Width="50" Background="Transparent">
+				<Image Source="{SvgImage /Assets/Images/monitor.svg}"/>
 			</Button>
-			<Rectangle Grid.Column="1" Width="40" Fill="Blue"></Rectangle>
+			<Button Grid.Column="1" Width="50" Background="Transparent">
+				<Image Source="{SvgImage /Assets/Images/cadeado.svg}"/>
+			</Button>
 			<StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
 				<Label FontWeight="Black">AVALONIA</Label>
 				<Label FontWeight="">SOUND METER</Label>
