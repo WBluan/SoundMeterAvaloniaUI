@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="204.53516mm"
+   height="187.50656mm"
+   viewBox="0 0 204.53516 187.50656"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="bitmap.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient1"
+       x1="-0.017638849"
+       y1="98.426636"
+       x2="210.01764"
+       y2="98.426636"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91730456,0,0,0.9461707,8.6830213,2.4314407)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26080036,0,0,0.17638866,77.615959,162.61666)"
+       x1="-0.017638849"
+       y1="98.426636"
+       x2="210.01764"
+       y2="98.426636" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.40450462,0,0,0.11530902,62.527011,191.1509)"
+       x1="-0.017638849"
+       y1="98.426636"
+       x2="210.01764"
+       y2="98.426636" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.7324215,-24.328946)">
+    <rect
+       style="fill:none;stroke:url(#linearGradient1);stroke-width:11.9012;stroke-dasharray:none"
+       id="rect1"
+       width="192.63396"
+       height="130.56059"
+       x="8.6830215"
+       y="30.279547"
+       inkscape:export-filename="monitor.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#000000;stroke:url(#linearGradient2);stroke-width:2.73992;stroke-dasharray:none"
+       id="rect1-0"
+       width="54.768078"
+       height="24.339592"
+       x="77.615959"
+       y="167.8082" />
+    <rect
+       style="fill:#000000;stroke:url(#linearGradient3);stroke-width:2.75894;stroke-dasharray:none"
+       id="rect1-0-8"
+       width="84.945969"
+       height="15.911308"
+       x="62.527012"
+       y="194.54472" />
+  </g>
+</svg>

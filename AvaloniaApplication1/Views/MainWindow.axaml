@@ -21,8 +21,9 @@
 	
 	<Grid RowDefinitions="Auto, *, Auto">
 		<!--Tittle Bar-->
-		<Grid  Height="40" Background="Orange" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
-			<Rectangle Grid.Column="0" Width="40" Fill="Red"></Rectangle>
+		<Grid  Height="40" Background="#e5e5e5" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
+			<Button Width="50">
+			</Button>
 			<Rectangle Grid.Column="1" Width="40" Fill="Blue"></Rectangle>
 			<StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
 				<Label FontWeight="Black">AVALONIA</Label>
