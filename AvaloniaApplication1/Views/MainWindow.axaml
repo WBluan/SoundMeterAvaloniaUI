@@ -129,7 +129,35 @@
 			</Grid>
 			
 			<!--Sound Panel-->
-			<Rectangle Grid.Column="1" Width="170" Fill="#ccc"></Rectangle>
+			<Grid Grid.Column="1" Width="170" Background="#1a1c20" HorizontalAlignment="Center" RowDefinitions="Auto, Auto, Auto">
+				<Grid.Styles>
+					<Style Selector="StackPanel">
+						<Setter Property="Background" Value="#353535"/>
+						<Setter Property="Orientation" Value="Vertical"/>
+					</Style>
+					<Style Selector="Border">
+						<Setter Property="Margin" Value="8"/>
+						<Setter Property="BorderBrush" Value="#353535"/>
+						<Setter Property="CornerRadius" Value="10"/>
+						<Setter Property="BorderThickness" Value="6"/>
+						<Setter Property="Width" Value="87"/>
+						<Setter Property="Height" Value="86"/>
+						<Setter Property="Padding" Value="2"/>
+					</Style>
+				</Grid.Styles>
+				<Border Grid.Row="0">
+					<StackPanel Width="80" Height="80">
+						<Label Foreground="white">Param:</Label>
+					</StackPanel>
+				</Border>
+				
+				
+			</Grid>
+			
+			
+			
+			
+			
 			<!---->
 			<Rectangle Grid.Column="2" Fill="#1a1c20"></Rectangle>
 		
