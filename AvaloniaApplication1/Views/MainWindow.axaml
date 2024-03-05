@@ -121,9 +121,17 @@
 							<Setter Property="FontSize" Value="12"/>
 							<Setter Property="CornerRadius" Value="20"/>
 							<Setter Property="Padding" Value="7,2"/>
+							<Setter Property="VerticalContentAlignment" Value="Center"/>
+						</Style>
+						<Style Selector="Button:pointerover /template/ ContentPresenter">
+							<Setter Property="Background" Value="#7f98c7"/>
+							<Setter Property="TextBox.Foreground" Value="White"/>
+							<Setter Property="Opacity" Value="0.5"/>
 						</Style>
 					</StackPanel.Styles>
-					<Button Margin="0,0,20,0">A</Button>
+					<Button Margin="0,0,20,0" Padding="4" Width="30" Height="30">
+						<Image Source="/Assets/Images/send-icon.png"/>
+					</Button>
 					<Button>INT-LRA</Button>
 				</StackPanel>
 			</Grid>
